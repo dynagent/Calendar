@@ -19,5 +19,6 @@ public class Boton extends JButton{
 	public Boton (Action accion, String text){
 		this(text);
 		setAction (accion);
+		int i=0;
 	}
 }
